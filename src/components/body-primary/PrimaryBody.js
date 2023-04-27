@@ -20,7 +20,7 @@ function get_Prediction(url, showProgress, navigate) {
   // Make progressbar visible
   showProgress(true);
 
-  const api_url = "https://phishr-api.up.railway.app/predict";
+  const api_url = "https://phishingapi.up.railway.app/predict";
 
   // No need to convert to json string
   var data = { url: url };
